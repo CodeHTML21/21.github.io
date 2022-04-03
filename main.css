@@ -1,0 +1,116 @@
+@-webkit-keyframes scroll {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -webkit-transform: translate(-100%, 0);
+        transform: translate(-100%, 0)
+    }
+}
+ 
+@-moz-keyframes scroll {
+    0% {
+        -moz-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -moz-transform: translate(-100%, 0);
+        transform: translate(-100%, 0)
+    }
+}
+ 
+@keyframes scroll {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0)
+    }
+}
+ 
+.marquee {
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+ .odd{
+     color: #FDE613;
+   
+     font-size: 6rem;
+ }
+ .odd:hover{
+    color: #Fff;
+    transition: 0.3s;
+}
+ .justify-center2{
+     margin-top: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 50px;
+ }
+ .form__input{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    justify-content: center;
+    background-color: #FDE613;
+    margin: 0rem 1rem;
+    padding: 15% 26%;
+ }
+.marquee span {
+    display: inline-block;
+    padding-right: -100%;
+    -webkit-animation: scroll 1350s infinite linear;
+    -moz-animation: scroll 1350s infinite linear;
+    animation: scroll 1350s infinite linear;
+}
+.mint-limited{
+    display: flex;
+    justify-content: center;
+}
+.mint-live{
+    display: flex;
+    justify-content: center;
+}
+.mint-count{
+    display: flex;
+    justify-content: center;
+}
+.mint-btn-main{
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+}
+.justify-center1{
+    display: flex;
+    justify-content: center;
+}
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+.padding-head{
+    margin-top: 17px;
+}
+.mint-soldout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 1000px){
+    .mint-btn-main{
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+}
+@media (max-width: 1000px){
+    .justify-center1{
+       display: block;
+    
+    }
+    
+}
